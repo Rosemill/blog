@@ -1,4 +1,4 @@
-baseURL: http://example.org/
+baseURL: https://rosemill.github.io/blog/
 languageCode: es
 title: RoseMill Blog
 theme: "PaperMod"
