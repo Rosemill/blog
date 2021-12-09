@@ -1,0 +1,39 @@
+baseURL: http://example.org/
+languageCode: es
+title: RoseMill Blog
+theme: "PaperMod"
+
+params:
+    homeInfoParams:
+        Title: Este es un blog de tecnología y ciberseguridad
+        Content: Echa un vistazo a los artículos que he publicado.
+
+    socialIcons:
+        - name: github
+          url: "https://github.com/Rosemill"
+        - name: twitter
+          url: "https://twitter.com"
+        - name: instagram
+          url: "https://instagram.com"
+
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON # is necessary
+
+menu:
+    main:
+        - identifier: categories
+          name: categories
+          url: /categories/
+          weight: 10
+        - identifier: tags
+          name: tags
+          url: /tags/
+          weight: 20
+        - identifier: example
+          name: example.org
+          url: https://example.org
+          weight: 30
+ 
